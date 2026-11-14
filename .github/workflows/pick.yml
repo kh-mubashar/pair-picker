@@ -1,0 +1,38 @@
+name: Pick coins
+
+on:
+  schedule:
+    - cron: "5 0 * * *"    # every day at 00:05 UTC, before the bot (00:23) and ATLAS
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["picker.py", ".github/workflows/pick.yml"]
+
+permissions:
+  contents: write          # commits the new list to this repo, nothing else
+
+concurrency:
+  group: pick-coins
+  cancel-in-progress: false
+
+jobs:
+  pick:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install requests==2.32.3 pytest==8.3.3
+      - run: python -m pytest -q
+      - name: Pick today's coins
+        run: python picker.py --out lists
+      - name: Save the list
+        run: |
+          git config user.name "pair-picker"
+          git config user.email "pair-picker@users.noreply.github.com"
+          git add lists
+          if git diff --cached --quiet; then echo "No change"; exit 0; fi
+          git commit -m "Coin list $(date -u +%F)"
+          git push
