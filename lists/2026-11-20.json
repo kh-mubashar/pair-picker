@@ -1,0 +1,649 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T00:32:11Z",
+ "rules": {
+  "top_n": 100,
+  "hold_rank": 120,
+  "min_volume_usd": 1000000,
+  "rank_source": "coingecko market cap, stablecoins removed",
+  "volume_venue": "hyperliquid-mainnet",
+  "listing_venue": "hyperliquid-testnet"
+ },
+ "counts": {
+  "ranked": 120,
+  "on_hyperliquid": 70,
+  "buyable": 32
+ },
+ "coins": [
+  {
+   "rank": 1,
+   "symbol": "BTC",
+   "hl_name": "BTC",
+   "mainnet_volume_usd": 4723515322.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 2,
+   "symbol": "ETH",
+   "hl_name": "ETH",
+   "mainnet_volume_usd": 821569300.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 3,
+   "symbol": "BNB",
+   "hl_name": "BNB",
+   "mainnet_volume_usd": 4094787.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 4,
+   "symbol": "XRP",
+   "hl_name": "XRP",
+   "mainnet_volume_usd": 71273079.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 5,
+   "symbol": "SOL",
+   "hl_name": "SOL",
+   "mainnet_volume_usd": 167683140.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 6,
+   "symbol": "TRX",
+   "hl_name": "TRX",
+   "mainnet_volume_usd": 2170756.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 8,
+   "symbol": "HYPE",
+   "hl_name": "HYPE",
+   "mainnet_volume_usd": 602742663.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 9,
+   "symbol": "ZEC",
+   "hl_name": "ZEC",
+   "mainnet_volume_usd": 227482797.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 10,
+   "symbol": "XMR",
+   "hl_name": "XMR",
+   "mainnet_volume_usd": 32999112.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 11,
+   "symbol": "DOGE",
+   "hl_name": "DOGE",
+   "mainnet_volume_usd": 4983959.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 14,
+   "symbol": "LINK",
+   "hl_name": "LINK",
+   "mainnet_volume_usd": 5376577.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 15,
+   "symbol": "ADA",
+   "hl_name": "ADA",
+   "mainnet_volume_usd": 2988267.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 16,
+   "symbol": "XLM",
+   "hl_name": "XLM",
+   "mainnet_volume_usd": 1187800.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 17,
+   "symbol": "NEAR",
+   "hl_name": "NEAR",
+   "mainnet_volume_usd": 56565239.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 18,
+   "symbol": "BCH",
+   "hl_name": "BCH",
+   "mainnet_volume_usd": 1184085.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 19,
+   "symbol": "LTC",
+   "hl_name": "LTC",
+   "mainnet_volume_usd": 2179961.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 20,
+   "symbol": "CC",
+   "hl_name": "CC",
+   "mainnet_volume_usd": 415158.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 22,
+   "symbol": "AVAX",
+   "hl_name": "AVAX",
+   "mainnet_volume_usd": 4658295.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 23,
+   "symbol": "UNI",
+   "hl_name": "UNI",
+   "mainnet_volume_usd": 10361884.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 24,
+   "symbol": "SUI",
+   "hl_name": "SUI",
+   "mainnet_volume_usd": 3640613.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 25,
+   "symbol": "GRAM",
+   "hl_name": "GRAM",
+   "mainnet_volume_usd": 3208511.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 26,
+   "symbol": "HBAR",
+   "hl_name": "HBAR",
+   "mainnet_volume_usd": 1059265.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 27,
+   "symbol": "TAO",
+   "hl_name": "TAO",
+   "mainnet_volume_usd": 3112264.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 28,
+   "symbol": "SHIB",
+   "hl_name": "kSHIB",
+   "mainnet_volume_usd": 737830.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 35,
+   "symbol": "AAVE",
+   "hl_name": "AAVE",
+   "mainnet_volume_usd": 8262585.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 36,
+   "symbol": "PEPE",
+   "hl_name": "kPEPE",
+   "mainnet_volume_usd": 14423238.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 37,
+   "symbol": "WLFI",
+   "hl_name": "WLFI",
+   "mainnet_volume_usd": 610775.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 38,
+   "symbol": "ONDO",
+   "hl_name": "ONDO",
+   "mainnet_volume_usd": 2526072.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 39,
+   "symbol": "ENA",
+   "hl_name": "ENA",
+   "mainnet_volume_usd": 9622618.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 41,
+   "symbol": "ASTER",
+   "hl_name": "ASTER",
+   "mainnet_volume_usd": 7537330.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 42,
+   "symbol": "MNT",
+   "hl_name": "MNT",
+   "mainnet_volume_usd": 266743.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 43,
+   "symbol": "DOT",
+   "hl_name": "DOT",
+   "mainnet_volume_usd": 1357830.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 44,
+   "symbol": "ICP",
+   "hl_name": "ICP",
+   "mainnet_volume_usd": 1205727.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 45,
+   "symbol": "PUMP",
+   "hl_name": "PUMP",
+   "mainnet_volume_usd": 29948173.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 47,
+   "symbol": "MORPHO",
+   "hl_name": "MORPHO",
+   "mainnet_volume_usd": 823141.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 49,
+   "symbol": "SKY",
+   "hl_name": "SKY",
+   "mainnet_volume_usd": 12086906.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 50,
+   "symbol": "VVV",
+   "hl_name": "VVV",
+   "mainnet_volume_usd": 14590715.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 53,
+   "symbol": "WLD",
+   "hl_name": "WLD",
+   "mainnet_volume_usd": 7686896.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 54,
+   "symbol": "ETC",
+   "hl_name": "ETC",
+   "mainnet_volume_usd": 1629682.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 57,
+   "symbol": "ARB",
+   "hl_name": "ARB",
+   "mainnet_volume_usd": 3631850.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 58,
+   "symbol": "POL",
+   "hl_name": "POL",
+   "mainnet_volume_usd": 722051.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 60,
+   "symbol": "JUP",
+   "hl_name": "JUP",
+   "mainnet_volume_usd": 4990860.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 62,
+   "symbol": "RENDER",
+   "hl_name": "RENDER",
+   "mainnet_volume_usd": 387823.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 64,
+   "symbol": "KAS",
+   "hl_name": "KAS",
+   "mainnet_volume_usd": 170205.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 66,
+   "symbol": "INJ",
+   "hl_name": "INJ",
+   "mainnet_volume_usd": 3408343.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 67,
+   "symbol": "ALGO",
+   "hl_name": "ALGO",
+   "mainnet_volume_usd": 373846.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 68,
+   "symbol": "LIT",
+   "hl_name": "LIT",
+   "mainnet_volume_usd": 17225735.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 69,
+   "symbol": "ATOM",
+   "hl_name": "ATOM",
+   "mainnet_volume_usd": 457557.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 76,
+   "symbol": "CAKE",
+   "hl_name": "CAKE",
+   "mainnet_volume_usd": 246509.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 77,
+   "symbol": "ZRO",
+   "hl_name": "ZRO",
+   "mainnet_volume_usd": 4322817.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 78,
+   "symbol": "STX",
+   "hl_name": "STX",
+   "mainnet_volume_usd": 318837.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 79,
+   "symbol": "FIL",
+   "hl_name": "FIL",
+   "mainnet_volume_usd": 425735.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 80,
+   "symbol": "ETHFI",
+   "hl_name": "ETHFI",
+   "mainnet_volume_usd": 2286722.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 81,
+   "symbol": "DASH",
+   "hl_name": "DASH",
+   "mainnet_volume_usd": 408160.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 87,
+   "symbol": "PYTH",
+   "hl_name": "PYTH",
+   "mainnet_volume_usd": 764718.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 88,
+   "symbol": "STABLE",
+   "hl_name": "STABLE",
+   "mainnet_volume_usd": 200299.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 93,
+   "symbol": "APT",
+   "hl_name": "APT",
+   "mainnet_volume_usd": 1154325.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 96,
+   "symbol": "TIA",
+   "hl_name": "TIA",
+   "mainnet_volume_usd": 413643.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 98,
+   "symbol": "AERO",
+   "hl_name": "AERO",
+   "mainnet_volume_usd": 1576845.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": true
+  },
+  {
+   "rank": 101,
+   "symbol": "CRV",
+   "hl_name": "CRV",
+   "mainnet_volume_usd": 3889542.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 103,
+   "symbol": "GRASS",
+   "hl_name": "GRASS",
+   "mainnet_volume_usd": 1516637.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 104,
+   "symbol": "BSV",
+   "hl_name": "BSV",
+   "mainnet_volume_usd": 33977.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 105,
+   "symbol": "PENGU",
+   "hl_name": "PENGU",
+   "mainnet_volume_usd": 777160.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 107,
+   "symbol": "FET",
+   "hl_name": "FET",
+   "mainnet_volume_usd": 463396.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 109,
+   "symbol": "SPX",
+   "hl_name": "SPX",
+   "mainnet_volume_usd": 637443.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 110,
+   "symbol": "VIRTUAL",
+   "hl_name": "VIRTUAL",
+   "mainnet_volume_usd": 239655.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 112,
+   "symbol": "TRUMP",
+   "hl_name": "TRUMP",
+   "mainnet_volume_usd": 5023271.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 114,
+   "symbol": "LUNC",
+   "hl_name": "kLUNC",
+   "mainnet_volume_usd": 3806656.0,
+   "on_mainnet": true,
+   "on_testnet": true,
+   "buyable": false
+  },
+  {
+   "rank": 117,
+   "symbol": "SEI",
+   "hl_name": "SEI",
+   "mainnet_volume_usd": 227641.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  },
+  {
+   "rank": 119,
+   "symbol": "STRK",
+   "hl_name": "STRK",
+   "mainnet_volume_usd": 5399014.0,
+   "on_mainnet": true,
+   "on_testnet": false,
+   "buyable": false
+  }
+ ]
+}
